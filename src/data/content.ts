@@ -1,5 +1,5 @@
 import { Initiative, Project, IdeaItem, SpeakingTopic } from '../types';
-import heroPortrait from '../assets/images/crystal_kizor_hero_1791492313282.jpg';
+import heroPortrait from '../assets/images/Architectural_Designer_in_Her_Studio.png';
 import standingTravertinePortrait from '../assets/images/ck_travertine_studio_portrait_1791495489622.jpg';
 import teaPodcastWorkspace from '../assets/images/ck_tea_podcast_workspace_1791495478503.jpg';
 import studioCokaArch from '../assets/images/studio_coka_arch_1791492322420.jpg';
