@@ -9,7 +9,6 @@ import { Hero } from './components/Hero';
 import { Intro } from './components/Intro';
 import { Ecosystem } from './components/Ecosystem';
 import { SelectedWork } from './components/SelectedWork';
-import { CopilotBanner } from './components/CopilotBanner';
 import { Ideas } from './components/Ideas';
 import { Speaking } from './components/Speaking';
 import { CTA } from './components/CTA';
@@ -19,7 +18,6 @@ import { Footer } from './components/Footer';
 import { InitiativeModal } from './components/InitiativeModal';
 import { ProjectModal } from './components/ProjectModal';
 import { IdeaModal } from './components/IdeaModal';
-import { CopilotProposalModal } from './components/CopilotProposalModal';
 import { ContactModal } from './components/ContactModal';
 
 // Types
@@ -77,11 +75,7 @@ export default function App() {
         <SelectedWork
           onSelectProject={(proj) => setSelectedProject(proj)}
         />
-
-        {/* AI Product Thinking Proposal */}
-        <CopilotBanner
-          onOpenCopilot={() => setIsCopilotOpen(true)}
-        />
+      
 
         {/* Research, Writing & Intellectual Work */}
         <Ideas
@@ -125,10 +119,6 @@ export default function App() {
         onInquire={(topic) => handleOpenContact(topic)}
       />
 
-      <CopilotProposalModal
-        isOpen={isCopilotOpen}
-        onClose={() => setIsCopilotOpen(false)}
-      />
 
       <ContactModal
         isOpen={isContactOpen}
