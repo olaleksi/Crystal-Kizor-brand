@@ -57,7 +57,7 @@ export const InitiativeModal: React.FC<InitiativeModalProps> = ({ initiative, on
 
         {/* Visual if available */}
         {initiative.imageSrc && (
-          <div className="mb-6 overflow-hidden border border-[#1C1917]/10 aspect-[16/9] bg-[#E7E5E4]">
+          <div className="mb-6 overflow-hidden border border-[#1C1917]/10 aspect-16/10 bg-[#E7E5E4]">
             <img
               src={initiative.imageSrc}
               alt={initiative.imageAlt || initiative.name}
