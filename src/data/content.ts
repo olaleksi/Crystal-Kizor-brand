@@ -1,7 +1,7 @@
 import { Initiative, Project, IdeaItem, SpeakingTopic } from '../types';
 import heroPortrait from '../assets/images/Architectural_Designer_in_Her_Studio.png';
-import standingTravertinePortrait from '../assets/images/ck_travertine_studio_portrait_1791495489622.jpg';
-import teaPodcastWorkspace from '../assets/images/ck_tea_podcast_workspace_1791495478503.jpg';
+import standingTravertinePortrait from '../assets/images/Confident_Designer_in_Studio_Workspace.png';
+import teaPodcastWorkspace from '../assets/images/ck_tea_podcast_workspace_1791495478503.png';
 import studioCokaArch from '../assets/images/studio_coka_arch_1791492322420.jpg';
 import communityCentreOculus from '../assets/images/community_centre_oculus_1791497143161.jpg';
 import communityCentreExterior from '../assets/images/community_centre_exterior_1791497180502.jpg';
