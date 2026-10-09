@@ -131,7 +131,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCopilot, onOpenContact }) 
         <div className="hairline-t pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#78716C] gap-4">
           <p>© {new Date().getFullYear()} Crystal Kizor & Studio COKA. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <span>Stage 1 Assessment Submission</span>
             <button
               onClick={scrollToTop}
               className="hover:text-[#1C1917] transition-colors flex items-center gap-1 cursor-pointer"
