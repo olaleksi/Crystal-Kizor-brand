@@ -1,23 +1,39 @@
 import { Initiative, Project, IdeaItem, SpeakingTopic } from '../types';
+import heroPortrait from '../assets/images/crystal_kizor_hero_1791492313282.jpg';
+import standingTravertinePortrait from '../assets/images/ck_travertine_studio_portrait_1791495489622.jpg';
+import teaPodcastWorkspace from '../assets/images/ck_tea_podcast_workspace_1791495478503.jpg';
+import studioCokaArch from '../assets/images/studio_coka_arch_1791492322420.jpg';
+import communityCentreOculus from '../assets/images/community_centre_oculus_1791497143161.jpg';
+import communityCentreExterior from '../assets/images/community_centre_exterior_1791497180502.jpg';
+import communityCentreGallery from '../assets/images/community_centre_jali_gallery_1791497191043.jpg';
+import natureHome2Exterior from '../assets/images/nature_home_2_exterior_1791498345884.jpg';
+import natureHome2Dining from '../assets/images/nature_home_2_dining_1791498324731.jpg';
+import natureHome2Bedroom from '../assets/images/nature_home_2_bedroom_1791498334438.jpg';
+import natureHomeExterior from '../assets/images/nature_home_exterior_1791499317514.jpg';
+import natureHomeStudy from '../assets/images/nature_home_study_1791499306288.jpg';
+import natureHomeAtrium from '../assets/images/nature_home_atrium_1791499328457.jpg';
+import elevatedFurniture from '../assets/images/elevated_furniture_1791492331219.jpg';
+import akoAllianceEdu from '../assets/images/ako_alliance_edu_1791492340404.jpg';
+import teaMedia from '../assets/images/tea_media_platform_1791492351584.jpg';
 
 // Visual Assets from generation and assessment alignment
 export const ASSETS = {
-  heroPortrait: '/src/assets/images/crystal_kizor_hero_1791492313282.jpg',
-  standingTravertinePortrait: '/src/assets/images/ck_travertine_studio_portrait_1791495489622.jpg',
-  teaPodcastWorkspace: '/src/assets/images/ck_tea_podcast_workspace_1791495478503.jpg',
-  studioCokaArch: '/src/assets/images/studio_coka_arch_1791492322420.jpg',
-  communityCentreOculus: '/src/assets/images/community_centre_oculus_1791497143161.jpg',
-  communityCentreExterior: '/src/assets/images/community_centre_exterior_1791497180502.jpg',
-  communityCentreGallery: '/src/assets/images/community_centre_jali_gallery_1791497191043.jpg',
-  natureHome2Exterior: '/src/assets/images/nature_home_2_exterior_1791498345884.jpg',
-  natureHome2Dining: '/src/assets/images/nature_home_2_dining_1791498324731.jpg',
-  natureHome2Bedroom: '/src/assets/images/nature_home_2_bedroom_1791498334438.jpg',
-  natureHomeExterior: '/src/assets/images/nature_home_exterior_1791499317514.jpg',
-  natureHomeStudy: '/src/assets/images/nature_home_study_1791499306288.jpg',
-  natureHomeAtrium: '/src/assets/images/nature_home_atrium_1791499328457.jpg',
-  elevatedFurniture: '/src/assets/images/elevated_furniture_1791492331219.jpg',
-  akoAllianceEdu: '/src/assets/images/ako_alliance_edu_1791492340404.jpg',
-  teaMedia: '/src/assets/images/tea_media_platform_1791492351584.jpg',
+  heroPortrait,
+  standingTravertinePortrait,
+  teaPodcastWorkspace,
+  studioCokaArch,
+  communityCentreOculus,
+  communityCentreExterior,
+  communityCentreGallery,
+  natureHome2Exterior,
+  natureHome2Dining,
+  natureHome2Bedroom,
+  natureHomeExterior,
+  natureHomeStudy,
+  natureHomeAtrium,
+  elevatedFurniture,
+  akoAllianceEdu,
+  teaMedia,
 };
 
 export const INITIATIVES: Initiative[] = [
