@@ -105,7 +105,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCopilot, onOpenContact }) 
                   Speaking & Keynotes
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={onOpenCopilot}
                   className="hover:text-[#9A3412] text-[#9A3412] font-medium transition-colors cursor-pointer inline-flex items-center gap-1.5"
@@ -113,7 +113,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCopilot, onOpenContact }) 
                   <span>AI Product Proposal (TEA Copilot)</span>
                   <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 bg-[#9A3412]/10">View</span>
                 </button>
-              </li>
+              </li> */}
             </ul>
 
             <div className="pt-4">

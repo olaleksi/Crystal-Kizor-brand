@@ -98,7 +98,7 @@ export const Intro: React.FC = () => {
 
           <div className="lg:col-span-7 order-1 lg:order-2">
             <div className="bg-[#E7E5E4] p-3 border border-[#1C1917]/10 shadow-sm">
-              <div className="aspect-[4/3] sm:aspect-[16/10] overflow-hidden bg-[#D6D3CD]">
+              <div className="aspect-4/3 sm:aspect-16/10 overflow-hidden bg-[#D6D3CD]">
                 <img
                   src={ASSETS.standingTravertinePortrait}
                   alt="Crystal Kizor standing by the travertine drafting table with architectural blueprints and physical building models"

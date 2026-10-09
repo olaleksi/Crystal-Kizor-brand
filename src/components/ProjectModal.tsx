@@ -72,7 +72,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, on
         </div>
 
         {/* Primary Monograph Visual Frame */}
-        <div className="mb-4 overflow-hidden border border-[#1C1917]/10 bg-[#E7E5E4] aspect-[16/10] sm:aspect-[16/9]">
+        <div className="mb-4 overflow-hidden border border-[#1C1917]/10 bg-[#E7E5E4] aspect-video sm:aspect-video">
           <img
             src={currentImage.src}
             alt={currentImage.alt}

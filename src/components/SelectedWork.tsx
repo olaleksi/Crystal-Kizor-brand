@@ -45,7 +45,7 @@ export const SelectedWork: React.FC<SelectedWorkProps> = ({ onSelectProject }) =
           >
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Media Container */}
-              <div className="lg:col-span-8 overflow-hidden bg-[#E7E5E4] aspect-[16/9] border border-[#1C1917]/10">
+              <div className="lg:col-span-8 overflow-hidden bg-[#E7E5E4] aspect-video border border-[#1C1917]/10">
                 <img
                   src={dominantProject.imageSrc}
                   alt={dominantProject.imageAlt}
@@ -115,7 +115,7 @@ export const SelectedWork: React.FC<SelectedWorkProps> = ({ onSelectProject }) =
               className="group cursor-pointer bg-[#F8F7F4] border border-[#1C1917]/15 hover:border-[#1C1917] transition-all duration-300 p-6 sm:p-8 flex flex-col justify-between shadow-xs hover:shadow-md"
             >
               <div>
-                <div className="overflow-hidden bg-[#E7E5E4] aspect-[4/3] border border-[#1C1917]/10 mb-6">
+                <div className="overflow-hidden bg-[#E7E5E4] aspect-4/3 border border-[#1C1917]/10 mb-6">
                   <img
                     src={project.imageSrc}
                     alt={project.imageAlt}

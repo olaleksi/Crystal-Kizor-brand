@@ -136,7 +136,8 @@ export const Ecosystem: React.FC<EcosystemProps> = ({ onSelectInitiative, onInqu
             const hasImage = Boolean(init.imageSrc);
 
             return (
-              <article
+              <button
+              
                 key={init.id}
                 onClick={() => handleCardClick(init)}
                 className={`group flex flex-col justify-between p-6 sm:p-8 bg-[#F8F7F4] border border-[#1C1917]/15 hover:border-[#1C1917] transition-all duration-300 cursor-pointer shadow-xs hover:shadow-md relative ${
@@ -151,7 +152,7 @@ export const Ecosystem: React.FC<EcosystemProps> = ({ onSelectInitiative, onInqu
                         {init.categoryLabel}
                       </span>
                       <span aria-hidden="true">·</span>
-                      <span className="truncate max-w-[200px]">{init.subtitle}</span>
+                      <span className="truncate max-w-50">{init.subtitle}</span>
                     </div>
                     <ArrowUpRight className="w-4 h-4 text-[#A8A29E] group-hover:text-[#1C1917] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                   </div>
@@ -166,7 +167,7 @@ export const Ecosystem: React.FC<EcosystemProps> = ({ onSelectInitiative, onInqu
 
                   {/* Optional High-Fidelity Visual for Heroic Initiatives */}
                   {hasImage && (
-                    <div className="my-5 overflow-hidden border border-[#1C1917]/10 bg-[#E7E5E4] aspect-[16/10]">
+                    <div className="my-5 overflow-hidden border border-[#1C1917]/10 bg-[#E7E5E4] aspect-16/10">
                       <img
                         src={init.imageSrc}
                         alt={init.imageAlt || init.name}
@@ -198,7 +199,7 @@ export const Ecosystem: React.FC<EcosystemProps> = ({ onSelectInitiative, onInqu
                   <span className="group-hover:underline underline-offset-4">{init.linkText}</span>
                   <ArrowRight className="w-3.5 h-3.5 text-[#1C1917] group-hover:translate-x-1 transition-transform" />
                 </div>
-              </article>
+              </button>
             );
           })}
         </div>

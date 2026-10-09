@@ -53,7 +53,7 @@ export const Speaking: React.FC<SpeakingProps> = ({ onInviteSpeaking }) => {
             >
               <div>
                 <div className="flex items-center justify-between text-xs text-[#78716C] mb-4">
-                  <span className="font-editorial text-xl text-[#1C1917]">0{idx + 1}</span>
+                  {/* <span className="font-editorial text-xl text-[#1C1917]">0{idx + 1}</span> */}
                   <span className="text-[11px] font-semibold tracking-wider uppercase text-[#9A3412]">
                     {topic.theme}
                   </span>
