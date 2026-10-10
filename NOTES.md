@@ -1,22 +1,22 @@
 ### PART 2: TEA Career & Practice Copilot
 
-The TEA Career & Practice Copilot would help architects and built-environment professionals make better decisions about learning, careers and professional growth. It would be designed primarily for students, graduates and early-to-mid-career professionals who often struggle to identify what to learn next, how to strengthen their portfolios, or how to navigate specific career goals.
+The TEA Career & Practice Copilot would help architects and built-environment professionals figure out what to learn next and how to grow in their careers. I’d focus on students, graduates, and early-to-mid-career professionals who need direction on building their skills, improving their portfolios, or working towards specific career goals.
 
-A user could describe their current experience, interests and goal—for example, moving into sustainable residential design—and receive a structured development path containing relevant TEA resources, recommended skills, project ideas and suggested next steps.
+For example, someone interested in sustainable residential design could share their experience and goals and receive a personalised learning path with relevant TEA resources, recommended skills, project ideas, and practical next steps.
 
-For the first version, I would use an LLM API with retrieval-augmented generation (RAG), connecting the model to a curated library of TEA articles, videos and learning resources. RAG would allow responses to be grounded in TEA's own content rather than relying entirely on the model's general knowledge.
+For the first version, I’d use an LLM API with retrieval-augmented generation (RAG), connecting it to a curated collection of TEA articles, videos, and learning materials. This would help keep responses relevant to TEA’s content rather than relying solely on the model’s general knowledge.
 
-The MVP would include a simple conversational interface, user goal/profile input, content retrieval and source references in responses.
+The MVP would include a chat interface, user profiles and goals, resource retrieval, and links to the sources behind each response.
 
-Key safeguards would include clearly distinguishing guidance from professional architectural advice, showing the sources used, avoiding unsupported claims, protecting user data, and providing an easy mechanism to report inaccurate responses. The system should also be evaluated regularly for hallucinations, bias and outdated recommendations.
+I’d also build in safeguards to protect user data, show sources, flag the limits of the guidance, and make it easy to report inaccurate answers. Regular testing would help identify hallucinations, bias, and outdated recommendations.
 
 ### PART 3: ANALYTICS & IMPROVEMENT
-I would measure website performance across acquisition, engagement, conversion and technical health. I would track users, traffic sources, landing pages, engagement, scroll depth, navigation paths, CTA clicks, enquiry starts/completions, form abandonment and outbound contact actions. I would also monitor Core Web Vitals, device/browser performance and technical errors.
+I would measure performance across traffic, engagement, enquiries, and technical health. I’d track where visitors come from, which pages they land on, how they navigate the site, CTA clicks, form completions, abandoned enquiries, and contact actions. I’d also monitor Core Web Vitals, browser compatibility, and technical errors.
 
-I would use GA4 for behavioural and conversion data, Google Search Console for search visibility and queries, Vercel Analytics for performance, and Microsoft Clarity for session recordings and heatmaps where appropriate and privacy-compliant.
+I’d use GA4 to understand user behaviour and conversions, Google Search Console to track search performance, and Vercel Analytics to monitor website performance.
 
-For the 5,000 visitors and 5 enquiries scenario, I would first verify that both the traffic and conversion events are being measured correctly. I would then segment the data by traffic source, landing page, device and geography to determine whether the problem is low-quality traffic or poor on-site conversion.
+If 5,000 visitors generate only five enquiries, I’d first check that tracking is working correctly. Then I’d break down the data by traffic source, landing page, device, and location to understand whether the issue is attracting the wrong audience or converting visitors into leads.
 
-Next, I would inspect the enquiry journey: CTA visibility, message clarity, trust signals, form length, validation errors, mobile usability and page performance. Session recordings and funnel analysis could reveal where users abandon the process.
+Next, I’d review the enquiry process, looking at CTA visibility, messaging, trust signals, form length, validation errors, mobile usability, and loading speed. Funnel analysis and session recordings could help identify where visitors drop off.
 
-I would then form hypotheses and test them through targeted changes, for example, clearer CTAs, a shorter form, stronger proof or a more relevant landing page, using controlled experiments where possible. Success would be measured by qualified enquiries and conversion rate, not traffic alone.
+Based on the findings, I’d test improvements such as clearer CTAs, shorter forms, stronger testimonials, or more relevant landing pages. I’d measure success by the conversion rate and quality of enquiries, not traffic alone.
